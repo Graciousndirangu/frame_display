@@ -13,7 +13,8 @@
                 <div class="card mb-4">
                     <div class="card-body">
                         <h5 class="card-title">{{ frame.name }}</h5>
-                        <iframe src="{% url 'frames:display_urls' frame.id %}" class="w-100" height="400"></iframe>
+                        <iframe src="{% url 'frames:display_urls' frame.id %}" class="w-100" height="400" frameborder="0" ></iframe>
+                        
                     </div>
                 </div>
             </div>

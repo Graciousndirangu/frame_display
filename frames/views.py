@@ -4,7 +4,6 @@ import random
 from django.shortcuts import redirect
 from .models import Frame, URL
 
-
 def frame_view(request):
     frames = Frame.objects.all()
     return render(request, 'frames/frame_view.html', {'frames': frames})
